@@ -19,7 +19,7 @@ This webpage has a relaxing background music to assist you unwind.
 3. I want to add a selection page for people to choose how long they want to do this breathing exercise for, like 1min, 3mins or 5mins. Also an alert to let them know it's finish after the exercise.
 
 
-## Credit
+## Credit 
 
 Music by <a href="/users/enrique27naveda-18269152/?tab=audio&amp;utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=audio&amp;utm_content=1502">enrique27naveda</a> from <a href="https://pixabay.com/music/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=1502">Pixabay</a>
 
