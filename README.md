@@ -1,5 +1,7 @@
 # Just Breathe...
 
+(Screenshot.png)
+
 ## Description
 
 Just Breathe... is a responsive webpage that run a 5-2-5 breathing exercise to help you relax. Sit down in a comfortable position and take five seconds to fill up your lungs, hold your breath for two seconds, and take five seconds to breathe out. George Alonso, an anxiety coach, recommends repeating this exercise for three to ten minutes while paying attention to the way the air feels moving in and out of your body (Morgan C, 12 breathing exercises to help you relax in minutes, https://www.readersdigest.com.au/healthsmart/12-breathing-exercises-to-help-you-relax-in-minutes). 
