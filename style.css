@@ -1,0 +1,105 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background: rgb(48,207,208);
+    background-image: linear-gradient(180deg, rgba(48,207,208,1) 0%, rgba(51,8,103,1) 100%);
+    min-height: 100vh;
+    color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    max-width: 40rem;
+    height: auto;
+}
+
+.title {
+    margin-top: 5rem;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+.circle {
+    transform: scale(1);
+    transition: transform 5s ease-in-out;
+}
+
+.circles {
+    width: 26.875rem;
+    animation: rotate 25s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.text {
+    position: absolute;
+    top: 26rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transform: scale(1);
+    transition: transform 5s ease-in-out;
+}
+
+.grow {
+    transform: scale(1.3);
+}
+
+.shrink {
+    transform: scale(1);
+
+}
+
+@media (max-width: 640px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .circles {
+        width: 23.75rem;
+    }
+
+    .text {
+        top: 23rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .circles {
+        width: 18rem;
+    }
+
+    .text {
+        font-size: 1.2rem;
+        top: 20rem;
+    }
+}
+
+
+
