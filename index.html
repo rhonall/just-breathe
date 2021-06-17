@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/8b2da8c914.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Just Breathe...</title>
 </head>
@@ -16,7 +17,13 @@
              <img class="circles" src="material/Group1.svg" alt="circle">
         </div>
          <p class="text"></p>
-        <embed src="material/cancion-triste-1502.mp3" loop="true" autostart="true" width="2" height="0"></embed> 
+        <audio id="bgMusic">
+            <source src="material/cancion-triste-1502.mp3" type="audio/mp3" loop="true">
+        </audio>
+        <div class="buttons">
+            <i class="fas fa-play"></i>
+            <i class="fas fa-pause"></i>
+        </div>
     </div>
     
 
