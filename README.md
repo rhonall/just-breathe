@@ -1,6 +1,6 @@
 # Just Breathe...
 
-(Screenshot.png)
+![Preview](Screenshot.png)
 
 ## Description
 
